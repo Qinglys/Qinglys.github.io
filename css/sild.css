@@ -1,0 +1,21 @@
+.fold_wrap{width:1200px;overflow:hidden;margin:0 auto;}
+.fold_wrap ul{width:1200px;height:260px;margin:0 auto;overflow:hidden;}
+.fold_wrap ul li{float:left;width:130px;height:260px;position:relative;overflow:hidden;cursor:pointer;}
+.fold_wrap ul li .mask_b{position:absolute;overflow:hidden;width:100%;height:100%;left:0;top:0;background:rgba(0,0,0,.3);_background:#B2B2B2;}
+.fold_wrap ul li.active .mask_b{background:none;}
+.fold_wrap ul li .mask_b h4{color:#fff;width:30px;margin:0 auto;display:block;font:30px/30px Microsoft Yahei;position:relative;padding:30px 0 0 0;}
+.fold_wrap ul li.big{width:322px;}
+.fold_wrap ul li .adv_intro{ width:92%; height:40px; padding:5px 4%; position:absolute;left:0; bottom:-50px;background:#37D; color:#FFF; overflow:hidden;}
+
+@media(max-width:1200px) {
+    .fold_wrap ul{width:1020px;}
+    .fold_wrap ul li{width:110px;}
+    .tab_theme{width:1220px;}
+    .tab_theme li{width:243px;}
+    .pic_rad .pic_shaw{width:400px;}
+    .pic_rad .pic_shaw li{width:190px;}
+    .coupon_list li{width:243px;}
+    .coupon_list{width:1020px;}
+    .service_inf li{width:240px;}
+    .fold_wrap{width:1000px;}
+    .tab_theme li img{display: block;width:100%; margin-top:0px;}

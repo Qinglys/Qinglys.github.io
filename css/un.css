@@ -1,0 +1,223 @@
+div, th, td {
+    font-size: 12px;
+}
+.spots_info_con {
+    padding: 19px;
+    border: 1px solid #ddd;
+    background: #fff;
+}
+.box_list {
+    width: 1200px;
+    float: left;
+}
+.mt20 {
+    margin-top: 20px !important;
+}
+.content {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    z-index: 8;
+}
+body, h1, h2, h3, h4, h5, h6, p, form, ul, ol, li, dt, dl, dd, th, td, label, bottom, input, textarea {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    background: #FFF;
+    color: #333;
+}
+body {
+    background: #f8f8f8;
+}
+.spots_info {
+    position: relative;
+    z-index: 6;
+}
+
+.scroll_spots_con .w890 {
+    width: 900px;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.scroll_spots ul {
+    width: 1500px;
+}
+.scroll_spots li {
+    position: relative;
+    float: left;
+    margin: 0 10px;
+}
+.scroll_spots_con .w890 li {
+    margin: 0 20px 0 0;
+}
+a {
+    color: #555;
+    cursor: pointer;
+    text-decoration: none;
+}
+fieldset, img {
+    border: 0;
+}
+.scroll_spots li img {
+    display: block;
+}
+.scroll_spots li p {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 30px;
+    line-height: 30px;
+    width: 150px;
+    color: #fff;
+    background-color: #000;
+    background: rgba(0,0,0,0.5);
+    filter: alpha(opacity=50);
+}
+.spots_info_tit strong {
+    font-size: 18px;
+    color: #666;
+    font-weight: normal;
+}
+.scroll_pic_con {
+    position: relative;
+    width: 300px;
+    float: left;
+    text-align: center;
+    z-index: 1;
+}
+.spots_info .type {
+    position: relative;
+    top: -8px;
+    margin-left: 315px;
+}
+h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+    font-size: 100%;
+}
+.spots_info .type h1 {
+    font-size: 28px;
+    color: #333;
+    font-weight: normal;
+}
+.spots_info .type dl {
+    display: block;
+    padding: 5px 0;
+}
+.spots_info .type dl.first {
+    margin: 0;
+    border-bottom: 1px dotted #ddd;
+}
+.spots_info .type .btn_write {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    padding: 0 15px;
+    margin-top: 10px;
+    line-height: 34px;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 2px;
+    background: #f90;
+}
+.spots_info .type dt {
+    float: left;
+    font-weight: bold;
+}
+.spots_info .type dd {
+    display: block;
+    position: relative;
+    margin: 0 0 0 60px;
+    color: #666;
+}
+.spots_info .type dd p.more {
+    display: inline-block;
+}
+em, i {
+    font-style: normal;
+}
+.spots_info .type dd p.more i {
+    display: inline-block;
+    width: 10px;
+    height: 6px;
+    margin: 0 20px 0 5px;
+    vertical-align: middle;
+    background: url(img/icon_arrow.png) no-repeat 0 0;
+    cursor: pointer;
+}
+.spots_info .type dd p.text_over {
+    height: 18px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.spots_info .type dd a {
+    color: #00bf49;
+}
+.spots_info .type dl.introduce dd {
+    height: 36px;
+    margin: 0 0 5px 0;
+    color: #999;
+}
+.spots_info .type dl.first dd {
+    margin-right: 120px;
+}
+.spots_info .type h1 em {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    vertical-align: text-bottom;
+    color: #f90;
+}
+.scroll_pic {
+    width: 300px;
+    margin: 0 auto;
+    height: 200px;
+    overflow: hidden;
+}
+#scroll_pic_l, #scroll_pic_r {
+    display: none;
+    position: absolute;
+    top: 90px;
+    width: 24px;
+    height: 50px;
+    background: rgba(0,0,0,0.5);
+}
+#scroll_pic_l {
+    left: 0px;
+}
+#scroll_pic_r {
+    right: 0px;
+}
+.scroll_pic_con .more_pic {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#scroll_pic_l i, #scroll_pic_r i {
+    position: absolute;
+    top: 50%;
+    left: 8px;
+    width: 9px;
+    height: 14px;
+    margin-top: -6px;
+    background: url(img/icon_arrow.png?1) no-repeat 0 -58px;
+}
+#scroll_pic_r i {
+    background-position: 0 -82px;
+}
+.scroll_pic ul {
+    width: 1500px;
+}
+.scroll_pic li {
+    float: left;
+}
+.scroll_pic li img {
+    display: block;
+}

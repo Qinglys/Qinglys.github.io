@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="jquery-1.8.3.min.js"></script>
+    <script>
+        $(document).ready(function(){
+                //写在这里直接加载，写在选择器触发事件中，必须通过事件去执行
+                $("h2").click(function () {
+                    alert("gf");
+                    $("ul li:eq(1)".css("color","pink"));
+                })
+            }
+        )
+    </script>
+</head>
+<body>
+<h2>影片预告</h2>
+<ul>
+    <li>战狼3</li>
+    <li>金刚2</li>
+    <li>葫芦娃</li>
+</ul>
+</body>
+</html>

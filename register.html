@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="icon" href="images/icon.png" type="image/x-icon"/>
+    <style>
+
+        .bg{
+            width: 1260px;
+            height: 709px;
+        }
+        .video{
+            position: absolute;
+        }
+        .register_body{
+            position: relative;
+            z-index: 1;
+            background-color: #503c3c3c;
+
+            float:left;
+            margin-top: 80px;
+            margin-left: 430px;
+            width: 400px;
+            height: 410px;
+
+        }
+        .input_0{
+            width: 300px;
+            height: 30px;
+            margin-top: 15px;
+            margin-left: 50px;
+        }
+        .input_2{
+            width: 100px;
+            height: 30px;
+            background: lightskyblue;
+            margin-top: 15px;
+            margin-left: 150px;
+            cursor: pointer;
+            border: 0px;
+        }
+        .input_img{
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+        input{
+            outline: none;
+            width: 350px;
+            border-radius: 42px;
+            border: 2px solid #FFFFFF;
+            background: #FFFFFF;
+            transition: .3s linear;
+        }
+
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+<header>
+    <div class="bg">
+        <video class="video" src="images/register_video.mp4" autoplay loop width="1260px"></video>
+        <div class="register_body">
+            <div>
+                <img class="input_img" src="images/logo_white_min320.png" alt="">
+            </div>
+            <div class="input">
+                <form action="">
+                    <input class="input_0" id="email" type="email" placeholder="&nbsp;&nbsp;请输入邮箱：" pattern="^[a-z0-9]+([._\\-]*[a-z0-9])*@([a-z0-9]+[-a-z0-9]*[a-z0-9]+.){1,63}[a-z0-9]+$" required="required">
+                    <input class="input_0" id="name" type="text" placeholder="&nbsp;&nbsp;请输入昵称：" pattern="^[\u4E00-\u9FA5A-Za-z0-9_]+$" required="required">
+                    <input class="input_0" id="psaaword1" type="password" placeholder="&nbsp;&nbsp;请输入密码：" required="required">
+                    <input class="input_0" id="psaaword2" type="password" placeholder="&nbsp;&nbsp;请确认密码：" required="required">
+                    <input class="input_2" type="submit" value="注册"  >
+                </form>
+            </div>
+        </div>
+    </div>
+</header>
+<!--尾部开始-->
+<footer id="footer">
+    <div class="footer_top">
+        <div class="top_left">
+            <ul>
+                <li><img src="images/logo_white_min.png" alt=""></li>
+                <li>&nbsp;&nbsp;&nbsp;关于我们<br>
+                    <a href="">云游简介</a><br>
+                    <a href="">联系我们</a><br>
+                    <a href="">合作伙伴</a>
+                </li>
+                <li>
+                    &nbsp;&nbsp;&nbsp;加入云游<br>
+                    <a href="">招聘职位</a><br>
+                </li>
+                <li>
+                    &nbsp;&nbsp;&nbsp;网站条款</a><br>
+                    <a href="">会员条款</a><br>
+                    <a href="">社区指南</a><br>
+                    <a href="">版权声明</a><br>
+                    <a href="">免责声明</a>
+                </li>
+                <li>
+                    &nbsp;&nbsp;&nbsp;帮助中心<br>
+                    <a href="">新手上路</a><br>
+                    <a href="">使用帮助</a><br>
+                    <a href="">网站地图</a><br>
+                </li>
+            </ul>
+            <br>
+            <div class="footer_end"><p>2018 Yunyou.cn <a href="http://www.miibeian.gov.cn/" target="_blank" rel="nofollow">京ICP备11015476号</a> <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010502013401" target="_blank"><img src="http://images.mafengwo.net/images/footer/police_record.png" width="12" style="margin:0 2px 4px 0;">京公网安备11010502013401号</a> <a href="http://images.mafengwo.net/images/about/icp2.jpg" target="_blank" rel="nofollow">京ICP证110318号</a></p>
+                <p><a href="http://images.mafengwo.net/images/about/licence2.jpg" target="_blank" rel="nofollow">营业执照</a><span class="m_l_10">客服：国内</span><span class="highlight">4006-345-678</span><span class="m_l_10">海外</span> <span class="highlight">+86-10-5922-2799</span></p>
+            </div>
+</footer>
+<!--尾部结束-->
+</body>
+</html>
